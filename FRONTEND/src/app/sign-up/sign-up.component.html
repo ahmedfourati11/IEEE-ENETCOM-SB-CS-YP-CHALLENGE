@@ -1,0 +1,62 @@
+<div class="body">
+
+  <nav class="navbar bg-body-tertiary" style="height: 60px;">
+    <div class="container-fluid d-flex align-items-center justify-content-start">
+  
+      <a class="navbar-brand" style="margin-top: -0.5%;" href="index.html">
+        <img src="../assets/logo sb 10 final 1 (1).png" alt="Logo" width="120" height="45" style="margin-left: 10%;" class="d-inline-block align-text-top"> </a>
+  
+      <div style=" margin-left: 60%; margin-top: -0.5%;">
+          <button type="button" class="btn btn-outline-warning mx-2" (click)="go_home()" >Return To Home</button>
+          <button type="button" class="btn btn-outline-warning mx-2" (click)="go_test()" >Test For Free!</button>
+      </div>
+  
+    </div>
+  </nav>
+
+<div class="cont">
+  <div class="form-container">
+
+      <div class="logo-container">
+          <img src="../assets/logo sb 10 final 1 (1).png" alt="IEEE ENET'COM SB" class="logo">
+      </div>
+
+      <form>
+
+        <div class="mb-3">
+          <label for="Username" class="form-label"><b>Full Name</b></label>
+          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Please Enter Your Full Name" >
+        </div>
+
+        <div class="mb-3">
+          <label for="Username" class="form-label"><b>Phone Number</b></label>
+          <input type="number" class="form-control" id="phnum" aria-describedby="emailHelp" placeholder="You Will receive a verification code" >
+        </div>
+
+        <div class="mb-3">
+          <label for="Username" class="form-label"><b>E-mail</b></label>
+          <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your E-mail address" >
+        </div>
+
+        <div class="mb-3">
+           <label for="Username" class="form-label"><b>Confirm E-mail</b></label>
+           <input type="text" class="form-control" id="confirm" aria-describedby="emailHelp" placeholder="Confirm your E-mail address" >
+        </div>
+
+        <div class="  mb-3">
+              <label for="exampleInputPassword1" class="form-label"><b>Password</b></label>
+              <input type="password" class="form-control" id="mdp" placeholder="Enter your password">
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            I agree to use this service responsibly and follow the terms of use.</label>
+        </div>
+<br>
+              <button type="submit" class="btn bttn btn-primary" (click)="gohome()" >Submit</button>
+      </form>
+  </div>
+</div>  
+  
+</div>

@@ -1,0 +1,17 @@
+.body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../sign-in/8562939_25544.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.conteneur {
+    padding: 20px;
+}

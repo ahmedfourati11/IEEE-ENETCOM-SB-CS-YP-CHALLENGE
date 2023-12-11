@@ -1,0 +1,48 @@
+.body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../sign-in/8562939_25544.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    padding: 0%;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px; 
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1;
+    max-width: 580px; 
+    width: 350%;  
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 0%;
+    padding: 0%;
+    margin-bottom: 0.5%; 
+}
+
+.cont{
+    margin-top: 0.3%;
+    display: flex;
+    justify-content: center;
+}
+
+.bttn{
+  margin: 0%;
+}
